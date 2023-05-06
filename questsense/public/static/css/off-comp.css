@@ -1,0 +1,73 @@
+
+.off-table table{
+    font-size : 15px;
+    border:0px;
+}
+.off-table table thead{
+    /* background-color: #FC7700; */
+    background-color: #FAFAFA;
+    color:#867A98;
+}
+.off-table table thead tr{
+    border-bottom: 0px solid #fcd8d8;
+}
+.off-table table thead th{
+    font-size : 15px;
+    font-weight: normal;
+    padding:0.5em;
+    border:0px;
+    border-bottom:1px solid #EAECEF;
+}
+
+.off-table table tbody td{
+    padding:0.5em;
+    border:0px;
+}
+
+.off-table table tbody td{
+    border-bottom:1px solid #EAECEF;
+}
+
+.off-table table tbody tr:hover{
+    background-color : #F5F5F5;
+}
+
+.off-table .off-paging{
+
+}
+
+.off-paging{
+    margin-bottom:0.3em;
+}
+
+.off-table .off-paging a ,.off-table .off-paging .active{
+    padding-left:0.4em;
+    padding-right:0.4em;
+    margin-left:0.5em;
+    margin-right:0.5em;
+}
+
+.off-table .off-paging a{
+    cursor: pointer;
+    color: #FC7700;
+}
+
+.off-table .off-paging .active{
+    /* background-color:orange; */
+    /* background-color: #FC7700; */
+    background-color: #DDD;
+    color:#000;
+    border-radius:100%;
+}
+
+
+.aka-comp-error{
+    background-color: #FFF0F5;
+    /* border: 1px solid #FE8484 !important; */
+}
+
+.aka-comp-msg-error{
+    color:red;
+    text-align: right;
+    font-size: 12px;
+}
